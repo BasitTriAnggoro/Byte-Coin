@@ -8,5 +8,8 @@
 
 import Foundation
 
+//MARK: - Data Model
 struct CoinModel{
+    let rate: Double
+    let asset_id_quote: String
 }

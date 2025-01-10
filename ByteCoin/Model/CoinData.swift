@@ -8,6 +8,8 @@
 
 import Foundation
 
+//MARK: - API Data Structure/Format (Codable)
 struct CoinData: Codable{
     let rate: Double
+    let asset_id_quote: String
 }
